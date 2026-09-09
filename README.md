@@ -1,48 +1,49 @@
-Amad Bin Jaiyad
+# 💳 Payment Gateway Simulation — C
 
-👨‍💻 About Me
+A beginner-level C program that simulates a basic UPI payment gateway workflow with payment-mode selection, PIN validation, and balance checking.
 
-Hi there! I'm Amad Bin Jaiyad, a passionate BCA student on a journey to becoming a proficient programmer. I have a keen interest in technology, exploring cutting-edge innovations, and building projects that make a difference. My current focus is on enhancing my skills in programming, algorithms, and software development.
+> **Note:** This is an educational simulation. It does not process real payments or connect to banking services.
 
-- 🌱 I’m currently learning Object-Oriented Programming (OOP) in C++.
-- 🔭 I’m working on various programming projects, including algorithms and real-world applications.
-- 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/amad-bin-jaiyad) | [Twitter](https://twitter.com/amadbinjaiyad)
+## 🚀 Features
+- Select from multiple simulated payment modes
+- Accept QR, mobile, UPI, or bank-account details as input
+- Validate a predefined UPI PIN
+- Check available balance before a transaction
+- Deduct successful transaction amounts from the simulated balance
 
-💳 Payment Gateway Project
+## 🧠 Concepts Practiced
+- Variables and data types
+- `printf` and `scanf`
+- `do...while` loops
+- `switch` statements
+- Conditional statements
+- Basic transaction logic
 
-Overview
+## 📂 Project Structure
+```text
+Payment-Gateaway/
+├── project.c
+├── README.md
+└── .gitignore
+```
 
-This project is a simple and secure Payment Gateway system designed to handle transactions smoothly. The gateway integrates multiple payment methods and ensures a secure and user-friendly experience for both merchants and customers.
+## ▶️ How to Run
+```bash
+gcc project.c -o payment_gateway
+./payment_gateway
+```
 
-Features
+## 🔐 Educational Note
+The program contains a predefined PIN and starting balance for demonstration purposes only. Do not use real credentials or financial information with this program.
 
-- Multiple Payment Methods: Supports credit/debit cards, net banking, UPI, and digital wallets.
-- Transaction History: Keeps a record of all transactions for easy tracking and reporting.
+## 🔮 Future Improvements
+- Add transaction history
+- Improve input validation
+- Add safer handling of sensitive input
+- Separate payment processing into reusable functions
 
-Technologies Used
+## 👨‍💻 Author
+**Amad Bin Jaiyad**  
+BCA Final Year Student | Developer & Learner
 
-- Programming Language: C
-
-Getting Started
-
-To get started with the project, clone this repository and follow the instructions below:
-
-1. Clone the Repository:
-
-   git clone https://github.com/amadbinjaiyad/payment-gateway.git
-
-2. Install Dependencies:
-
-   [Specify installation commands, e.g., sudo apt-get install, etc.]
-
-3. Run the Project:
-
-   [Specify the command to compile and run the project, e.g., gcc -o payment-gateway main.c && ./payment-gateway]
-
-Contributing
-
-If you'd like to contribute to this project, feel free to fork the repository and submit a pull request. Your contributions are always welcome!
-
-License
-
-This project is licensed under the [MIT License](LICENSE).
+> Repository name remains `Payment-Gateaway` to preserve the existing GitHub history.
